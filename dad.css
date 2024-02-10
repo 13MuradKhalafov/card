@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+}
+
+.continer{
+    width: 1100px;
+    margin: 20vh auto;
+}
+.cards{
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 250px;
+    overflow:hidden;
+    margin: 0px 20px;
+    transition: .8s;
+}
+.cards:hover{
+    scale: 1.1;
+    box-shadow: o o 10px black;
+
+}
+.cards .card , .btn{
+    text-align: center;
+}
+.card img{
+    width: 120px;
+}
+.card{
+    padding: 20px 0;
+    transition: .8s;
+}
+
+.blue .card{
+    background-color: blue;
+}
+.red .card{
+    background-color: red;
+}
+.green .card{
+    background-color: green;
+}
+.cards .word{
+    padding: 20px;
+}
+
+.cards .word > *{
+    margin: 20px 0; 
+}
+
+
+
+
+.btn button{
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 0 solid  black;
+}
+.card:hover .card {
+    border-bottom-right-radius: 50%;
+}
+
+.card:hover button{
+    background-color: blue;
+    color: #f1f1ee;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+}
